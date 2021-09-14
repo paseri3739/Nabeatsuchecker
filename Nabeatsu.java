@@ -39,16 +39,12 @@ class Nabeatsu{
              System.out.println("ナベアツではありません");
            }
 
-           /*System.out.println(skip);
-           System.out.println(skip2);
-           System.out.println(skip3);
-           System.out.println(skip4);真偽値のデバッグ用*/
            System.out.println("続けますか？ 1で継続、2で終了。");
            int exit = scanner.nextInt();
            if (exit == 1);
              else if(exit == 2){
                roop = false ; //roopがfalseになりwhileの条件を満たさなくなり処理が終わる。
-         }
+             }
 
     }while(roop == true);
 
